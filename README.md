@@ -1,7 +1,3 @@
-Here’s a comprehensive README template for your React portfolio project using Vite. Feel free to customize this based on your specific setup and preferences.
-
----
-
 # Portfolio Project
 
 A personal portfolio website built with **React** and **Vite**. This project showcases my skills, experience, and projects as a web developer.
