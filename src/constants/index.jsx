@@ -6,6 +6,7 @@ import {
 } from "react-icons/fa6";
 
 import dieseldragrace from "../assets/dieseldragrace.webp";
+import ito from "../assets/ito.jpeg";
 
 export const LINKS = [
   { id: "projects", name: "projects" },
@@ -25,7 +26,15 @@ export const PROJECTS = [
       "A game about drag racing with diesel trucks. The game is built using Python and the Pygame library.",
     imgSrc: dieseldragrace,
     link: "https://github.com/urbaee/Diesel-Drag-Race",
-  }];
+  },
+  {
+    id: 2,
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website built using React, Vite, and Tailwind CSS.",
+      imgSrc: ito,
+      link: "https://github.com/pataanggs/port",
+  }]
 
 export const ABOUT =
   "As a passionate third-year Informatics Engineering student at ITERA, I am deeply engaged in coding and specialize in developing efficient and innovative software solutions. With a solid foundation in both front-end and back-end technologies, I excel in creating dynamic and responsive web applications. My skill set includes working with programming languages like JavaScript, Python, and frameworks such as React and Node.js. I am also proficient in database management systems, including MongoDB and SQL. I am committed to continuous learning and staying updated with industry advancements, enabling me to implement cutting-edge technologies in my projects.";

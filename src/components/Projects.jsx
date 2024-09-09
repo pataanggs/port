@@ -21,7 +21,7 @@ const Projects = () => {
                 alt={project.title}
                 className="h-auto w-full object-cover"
               />
-              <div className="absolute bottom-0 left-0 right-0 m-8 p-8 text-white backdrop-blur-md">
+              <div className="absolute bottom-0 left-0 right-0 m-8 p-8 text-black backdrop-blur-sm">
                 <h3 className="text-3xl font-semibold">{project.title}</h3>
                 <p className="max-w-xs text-lg">{project.description}</p>
               </div>
