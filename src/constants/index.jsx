@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa6";
 
 import dieseldragrace from "../assets/dieseldragrace.webp";
-import ito from "../assets/ito.jpeg";
+import porto from "../assets/porto.png";
 
 export const LINKS = [
   { id: "projects", name: "projects" },
@@ -32,7 +32,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website built using React, Vite, and Tailwind CSS.",
-      imgSrc: ito,
+      imgSrc: porto,
       link: "https://github.com/pataanggs/port",
   }]
 
@@ -52,7 +52,7 @@ export const ABOUT =
       degree: "Senior High School Diploma",
       year: "2019 - 2022",
       description:
-        "Completed senior high school with a focus on science and technology. Participated in various extracurricular activities and projects related to programming and technology.",
+        "Completed senior high school focusing on science and technology. Participated in various extracurricular activities and projects related to programming and technology.",
     },
   ];
   
@@ -77,6 +77,6 @@ export const SOCIAL_MEDIA_LINKS = [
 ];
 
 export const CONTACT = {
-  text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, Id love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out me via email or other social media to discuss how we can work together to achieve your goals.",
+  text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, I'd love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out me via email or other social media to discuss how we can work together to achieve your goals.",
   email: "kartagama.fathan@gmail.com",
 };

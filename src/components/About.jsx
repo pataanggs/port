@@ -3,7 +3,7 @@ import { ABOUT } from "../constants"
 const About = () => {
   return (
     <section id="about">
-        <h2 className="my-10 text-center text-3xl lg:text-8xl">
+        <h2 className="uppercase my-10 text-center font-semibold text-lime-300 text-3xl lg:text-8xl">
             About Me
         </h2>
         <div className="flex items-center justify-center">

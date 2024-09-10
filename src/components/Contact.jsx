@@ -6,11 +6,11 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="mx-auto max-w-6xl">
-        <p className="my-10 text-center text-3xl lg:text-8xl">
+        <p className="uppercase my-10 text-center text-lime-300 font-semibold text-3xl lg:text-8xl">
           Interested in working together?
         </p>
         <p className="p-4 text-center text-xl">{CONTACT.text}</p>
-        <p className="my-4 text-center text-2xl font-medium text-lime-300 lg:pt-6 lg:text-5xl">
+        <p className="my-4 text-center text-2xl font-semibold text-lime-300 lg:pt-6 lg:text-5xl">
           {CONTACT.email}
         </p>
         <p className="my-4 text-center text-2xl font-medium text-lime-300 lg:pt-6 lg:text-5xl">
