@@ -21,9 +21,9 @@ const Projects = () => {
                 alt={project.title}
                 className="h-auto w-full object-cover"
               />
-              <div className="absolute bottom-0 left-0 right-0 m-8 p-8 text-lime-300 backdrop-blur">
-                <h3 className="text-3xl font-semibold text-lime-300">{project.title}</h3>
-                <p className="max-w-xs text-lg text-white">{project.description}</p>
+              <div className="absolute m-4 rounded-lg bottom-0 p-8 text-lime-300 backdrop-blur-lg drop-shadow-xl ring-white/35 ring-[1px] ">
+                <h3 className="text-lg md:text-3xl font-semibold text-lime-300">{project.title}</h3>
+                <p className="text-sm md:text-lg text-white">{project.description}</p>
               </div>
             </div>
           </a>
