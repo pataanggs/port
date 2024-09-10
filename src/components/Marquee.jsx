@@ -9,7 +9,7 @@ const Marquee = () => {
           <motion.h1
             initial={{ x: "100%" }}
             animate={{ x: "-100%" }}
-            transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+            transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
             key={index}
             className="py-2 text-3xl font-bold leading-none tracking-tighter lg:text-7xl"
           >
