@@ -9,7 +9,7 @@ const Education = () => {
       <div className="mx-auto max-w-6xl">
         {EDUCATION.map((education, id) => (
           <div key={id} className="mx-4 mb-20">
-            <h2 className="font-medium lg:text-2xl">
+            <h2 className="font-medium lg:text-2xl text-center">
               {education.institution}
             </h2>
             <div className="flex justify-between">
@@ -20,7 +20,7 @@ const Education = () => {
                 {education.year}
               </p>
             </div>
-            <p className="font-sans text-gray-400">
+            <p className="font-sans text-gray-400 text-justify">
               {education.description}
             </p>
           </div>
