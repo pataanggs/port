@@ -11,7 +11,7 @@ const Hero = () => {
         </h1>
         <div className='mt-8'>
           <a href='/CV Fathan Andi.pdf' target='_blank' rel='noopener noreferrer' download className='flex items-center rounded-xl bg-lime-300 p-2 px-3 font-sans font-medium text-black hover:bg-lime-400'>
-            <span>Resume.pdf</span>
+            <span>Download My CV</span>
             <LuImport className='ml-2' />
           </a>
         </div>
