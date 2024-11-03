@@ -7,6 +7,7 @@ import {
 
 import dieseldragrace from "../assets/dieseldragrace.webp";
 import porto from "../assets/porto.png";
+import { img } from "framer-motion/client";
 
 export const LINKS = [
   { id: "projects", name: "projects" },
@@ -34,7 +35,15 @@ export const PROJECTS = [
       "A personal portfolio website built using React, Vite, and Tailwind CSS.",
       imgSrc: porto,
       link: "https://github.com/pataanggs/port",
-  }]
+  },
+  {
+    id: 3,
+    title: "Wasteless",
+    description:
+      "WasteLess is an app that helps supermarkets reduce food waste by offering automatic discounts on products nearing their expiration date and donating unsold food. The app targets supermarkets, customers looking for discounted products, and charities accepting food donations.",
+      imgSrc: wasteless,
+    link: "https://github.com/Aziz097/WasteLess",
+  }];
 
 export const ABOUT =
   "As a passionate third-year Informatics Engineering student at ITERA, I am deeply engaged in coding and specialize in developing efficient and innovative software solutions. With a solid foundation in both front-end and back-end technologies, I excel in creating dynamic and responsive web applications. My skill set includes working with programming languages like JavaScript, Python, and frameworks such as React and Node.js. I am also proficient in database management systems, including MongoDB and SQL. I am committed to continuous learning and staying updated with industry advancements, enabling me to implement cutting-edge technologies in my projects.";
