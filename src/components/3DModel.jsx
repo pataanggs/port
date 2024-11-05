@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF, useAnimations } from '@react-three/drei';
 
 const SolarSystemModel = () => {
-  const { scene, animations } = useGLTF('/public/solar_system.glb'); // Load the GLB model
+  const { scene, animations } = useGLTF('solar_system.glb'); // Load the GLB model
   const { actions } = useAnimations(animations, scene); // Use animations hook
   useEffect(() => {
     // Play the first animation with a slower time scale
