@@ -13,7 +13,7 @@ import { img } from "framer-motion/client";
 export const LINKS = [
   { id: "projects", name: "projects" },
   { id: "about", name: "about" },
-  { id: "experience", name: "experience" },
+  { id: "education", name: "education" },
   { id: "contact", name: "Contact" },
 ];
 

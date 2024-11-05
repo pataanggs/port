@@ -1,8 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(144, 238, 144, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(144, 238, 144, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(144, 238, 144, 0);
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes flowing-glow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.glowing-border {
+  position: relative;
+  border-radius: 1rem;
+  padding: 3px; /* Adjust to control the glow thickness */
+  background: linear-gradient(90deg, rgba(0, 255, 0, 0.6), rgba(0, 0, 255, 0.6), rgba(0, 255, 0, 0.6));
+  background-size: 200% 200%;
+  animation: flowing-glow 3s linear infinite;
+}
+/* For WebKit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #a8e600, #76c7c0); /* Lime gradient color for the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  box-shadow: 0 0 10px rgba(168, 230, 0, 0.5); /* Shadow for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #76c7c0, #a8e600); /* Hover effect with reversed gradient */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #a8e600 #333; /* Custom colors for thumb and track */
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 15px; /* Size of the dots */
+  height: 15px;
+  margin: 0 5px;
+  background-color: #a8e600; /* Lime color */
+  border-radius: 50%; /* Make it round */
+}
+
+
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px); /* Adjust height of bounce */
+  }
+}
+canvas {
+  display: block;
+  z-index: -1; /* Ensure it's behind other content */
+}
+
 
 :root {
   font-family: "Oswald", sans-serif;
