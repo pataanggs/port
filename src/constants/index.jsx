@@ -70,21 +70,42 @@ export const EDUCATION = [
 export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://discord.gg/qByfFJWhzS",
-    icon: <FaDiscord fontSize={26} className="hover:opacity-80" />,
+    icon: (
+      <FaDiscord
+        fontSize={26}
+        className="transition-transform transform hover:scale-125 hover:rotate-12 hover:text-lime-300 hover:shadow-xl hover:animate-bounce"
+      />
+    ),
   },
   {
     href: "https://www.instagram.com/pataangg/",
-    icon: <FaInstagram fontSize={26} className="hover:opacity-80" />,
+    icon: (
+      <FaInstagram
+        fontSize={26}
+        className="transition-transform transform hover:scale-125 hover:rotate-12 hover:text-lime-300 hover:shadow-xl hover:animate-bounce"
+      />
+    ),
   },
   {
     href: "https://github.com/pataanggs",
-    icon: <FaGithub fontSize={26} className="hover:opacity-80" />,
+    icon: (
+      <FaGithub
+        fontSize={26}
+        className="transition-transform transform hover:scale-125 hover:rotate-12 hover:text-lime-300 hover:shadow-xl hover:animate-bounce"
+      />
+    ),
   },
   {
     href: "https://www.linkedin.com/in/kartagamafathan/",
-    icon: <FaLinkedin fontSize={26} className="hover:opacity-80" />,
+    icon: (
+      <FaLinkedin
+        fontSize={26}
+        className="transition-transform transform hover:scale-125 hover:rotate-12 hover:text-lime-300 hover:shadow-xl hover:animate-bounce"
+      />
+    ),
   },
 ];
+
 
 export const CONTACT = {
   text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, I'd love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out me via email or other social media to discuss how we can work together to achieve your goals.",

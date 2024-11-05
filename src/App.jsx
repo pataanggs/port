@@ -11,6 +11,8 @@ import Preloader from './components/Loading';
 import BackgroundAnimation from './components/BackgroundAnimation'; 
 import backgroundMusic from './assets/Music/background.wav';
 import { FaPlay, FaPause } from 'react-icons/fa';
+import Footer from './components/Footer'; // Import the Footer component
+
 
 const App = () => {
   const audioRef = useRef(null);
@@ -58,6 +60,7 @@ const App = () => {
           <audio ref={audioRef} src={backgroundMusic} loop />
         </main>
       )}
+      <Footer /> {/* Add the Footer component here */}
     </>
   );
 }

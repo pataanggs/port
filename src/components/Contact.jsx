@@ -30,9 +30,6 @@ const Contact = () => {
           </a>
         ))}
       </div>
-      <p className="my-8 text-center text-gray-400">
-        &copy; Pataangg. All Rights Reserved. {currentYear}
-      </p>
     </section>
   );
 };
