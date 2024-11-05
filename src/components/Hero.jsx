@@ -1,8 +1,7 @@
 import React from 'react';
 import { LuImport } from 'react-icons/lu';
 import pataangg from '../assets/pataangg.jpg';
-import HyperText from './HyperText'; // Adjust the path if necessary
-
+import HyperText from './HyperText';
 
 const Hero = () => {
   return (
@@ -25,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Hero;
