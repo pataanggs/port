@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Work from "./components/Education";
 import Contact from "./components/Contact";
-import SolarSystem3D from './components/SolarSystem3d';
+import SolarSystem3D from './components/3DModel';
 import Preloader from './components/Loading';
 import BackgroundAnimation from './components/BackgroundAnimation'; 
 import backgroundMusic from './assets/Music/background.wav';
