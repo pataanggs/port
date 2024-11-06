@@ -81,3 +81,5 @@ export function HyperText({
     </div>
   );
 }
+export default HyperText; // Make sure this is at the end of the file
+
