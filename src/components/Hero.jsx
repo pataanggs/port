@@ -1,7 +1,7 @@
 import React from 'react';
 import { LuImport } from 'react-icons/lu';
 import pataangg from '../assets/pataangg.jpg';
-import HyperText from '..components/HyperText'; // Ensure this path is correct
+import HyperText from '../components/HyperText'; // Ensure this path is correct
 
 const Hero = () => {
   return (
