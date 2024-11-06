@@ -30,8 +30,8 @@ const MusicButton = () => {
     <div className="fixed top-5 left-5">
       <motion.button
         onClick={togglePlay}
-        className={`p-4 rounded-full bg-lime-500 text-black shadow-lg transition-all duration-300 transform hover:bg-lime-400 active:scale-90`}
-        whileHover={{ scale: 1.2, rotate: 15 }}
+        className="relative p-4 rounded-full bg-gradient-to-r from-lime-400 to-lime-600 text-white shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl active:scale-95"
+        whileHover={{ scale: 1.1, rotate: 15 }}
         whileTap={{ scale: 0.9 }}
       >
         <AnimatePresence>

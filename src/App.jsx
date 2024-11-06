@@ -6,13 +6,13 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Work from "./components/Education";
 import Contact from "./components/Contact";
-import SolarSystem3D from './components/3DModel'; // Check file name case
+import SolarSystem3D from './components/3DModel'; 
 import Preloader from './components/Loading'; 
 import BackgroundAnimation from './components/BackgroundAnimation'; 
-import backgroundMusic from './assets/Music/background.wav';
 import { FaPlay, FaPause } from 'react-icons/fa';
-import Footer from './components/Footer'; // Import the Footer component
-
+import Footer from './components/Footer'; 
+import backgroundMusic from './assets/Music/background.wav'; 
+import { motion } from 'framer-motion';
 
 const App = () => {
   const audioRef = useRef(null);
@@ -54,13 +54,20 @@ const App = () => {
           <Work />
           <Contact />
           <SolarSystem3D />
-          <button onClick={togglePlay} className="fixed top-5 left-5 px-4 py-2 text-lg bg-black text-white rounded-md">
-            {isPlaying ? <FaPause /> : <FaPlay />}
-          </button>
+          <motion.button 
+            onClick={togglePlay} 
+            className="fixed top-5 left-5 p-4 rounded-full bg-gradient-to-r from-green-400 to-blue-500 text-white shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300 transition-all duration-300"
+            whileHover={{ scale: 1.1, rotate: 15, backgroundPosition: '100%' }}
+            whileTap={{ scale: 0.9 }}
+            animate={{ scale: isPlaying ? 1.2 : 1 }}
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+          >
+            {isPlaying ? <FaPause className="text-2xl" /> : <FaPlay className="text-2xl" />}
+          </motion.button>
           <audio ref={audioRef} src={backgroundMusic} loop />
         </main>
       )}
-      <Footer /> {/* Add the Footer component here */}
+      <Footer />
     </>
   );
 }
