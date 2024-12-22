@@ -7,8 +7,9 @@ import {
 
 import dieseldragrace from "../assets/dieseldragrace.webp";
 import porto from "../assets/porto.png";
-import wasteless from "../assets/wasteless.png"; // Importing the image for "Wasteless"
-import { img } from "framer-motion/client";
+import wasteless from "../assets/wasteless.png";
+import TheForestKeeper from "../assets/TheForestKeeper.jpg";
+import { link } from "framer-motion/client";
 
 export const LINKS = [
   { id: "projects", name: "projects" },
@@ -42,8 +43,16 @@ export const PROJECTS = [
     title: "Wasteless",
     description:
       "WasteLess is an app that helps supermarkets reduce food waste by offering automatic discounts on products nearing their expiration date and donating unsold food. The app targets supermarkets, customers looking for discounted products, and charities accepting food donations.",
-    imgSrc: wasteless, // Corrected image source
+    imgSrc: wasteless,
     link: "https://github.com/Aziz097/WasteLess",
+  },
+  {
+    id: 4,
+    title: "The Forest Keeper",
+    description:
+      "The Forest Keeper is a First-Person Action-Adventure Horror game developed by the Malas Ngoding Studio. This game explores the mysteries of the Sumatera jungle, blending tense gameplay mechanics and an emotionally-driven story of redemption.",
+    imgSrc: TheForestKeeper,
+    link:"https://malasngodingco.itch.io/the-forest-keeper",
   },
 ];
 

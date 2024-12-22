@@ -140,3 +140,12 @@ footer {
   background: #000000;
   scroll-behavior: smooth;
 }
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: rgb(163 230 53);
+  transform-origin: 0%;
+}
